@@ -13,7 +13,7 @@ class Animal:
             print ('Seu animal está magro ')
 
     def _aviso(self):    # metodo utilitario
-        self.msg = ('Cuide bem do seu animal')
+        self.msg = 'Cuide bem do seu animal'
         return self.msg
 
     def observacao(self):
